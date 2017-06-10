@@ -23,9 +23,6 @@ List of common topics that best describe the contents of that page
    page and then sort them to get the top results/frequencies on the page. 
 3. Then, compare these top results over <h1> and 1st <p> tags.
 
-# How to run the project
-- Import the git repository as a maven project in Eclipse IDE. Perform "maven clean" and "maven install" operations so that
-  the supporting JAR file will be created under the "target" folder.
 
 # Approach to solve the Problem
 1. App.java takes URL from the user argument and checks the validity of the URL whether it is fully qualified URL to be
