@@ -42,6 +42,12 @@ List of common topics that best describe the contents of that page
   "https://www.amazon.com/Cuisinart-CPT-122-Compact-2-Slice-Toaster/dp/B009GQ034C/ref=sr_1_1s=kitchen&ie=UTF8&qid=1431620315&sr=1-1&keywords=toaster" gives us the output array 
    [toaster,   bread, toast, cuisinart].
 
+# How to run the Project
+- Clone the repository on your machine. Go to target folder by "cd target"
+- Run the following command:
+
+  java -cp jsoup-1.8.3.jar:parser-0.0.1-SNAPSHOT.jar com.parser.App "URL"
+
 # DataStructure Used
 - There are various datastructure used because of its strengths.
 - Mainly, used HashMap for storing and managing the words & its frequency. And also used TreeMap/Comparators to sort the HashMap.
