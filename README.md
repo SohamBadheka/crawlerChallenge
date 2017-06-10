@@ -3,8 +3,7 @@ Problem :
 Given any page (URL), be able to classify the page, and return a list of relevant topics.
 
 Input:
-Any URL (e.g. http://sohambadheka.in, https://www.amazon.com/Cuisinart-CPT-122-Compact-2-Slice-Toaster/dp/B009GQ034C/
-ref=sr_1_1?s=kitchen&ie=UTF8&qid=1431620315&sr=1-1&keywords=toaster)
+Any URL (e.g. http://sohambadheka.in, https://www.amazon.com/Cuisinart-CPT-122-Compact-2-Slice-Toaster/dp/B009GQ034C/ref=sr_1_1?s=kitchen&ie=UTF8&qid=1431620315&sr=1-1&keywords=toaster)
  
 Output:
 List of common topics that best describe the contents of that page
@@ -39,8 +38,9 @@ List of common topics that best describe the contents of that page
 4. After getting the top results of these words, we check whether these words really have enough importance for the page, which
    can be cross-checked by looking into h1 and p tags. If these frequent words are a part of h1 or the first p then
    add it to our resultArray that is the final output.
-5. For example, "https://www.amazon.com/Cuisinart-CPT-122-Compact-2-Slice-Toaster/dp/B009GQ034C/ref=sr_1_1?s=kitchen&ie=UTF8&qid=1431620315&sr=1-1
-   &keywords=toaster" gives us the output array [toaster, bread, toast, cuisinart].
+5. For example, 
+  "https://www.amazon.com/Cuisinart-CPT-122-Compact-2-Slice-Toaster/dp/B009GQ034C/ref=sr_1_1s=kitchen&ie=UTF8&qid=1431620315&sr=1-1&keywords=toaster" gives us the output array 
+   [toaster,   bread, toast, cuisinart].
 
 # DataStructure Used
 - There are various datastructure used because of its strengths.
