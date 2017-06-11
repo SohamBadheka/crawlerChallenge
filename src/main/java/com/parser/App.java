@@ -15,13 +15,12 @@ import org.jsoup.select.Elements;
  */
 public class App 
 {
-	public UrlParser urlParser;
-	public DocParser docParser;
-    public static void main( String[] args ) throws Exception
-    {
-        System.out.println( "Parsing the web page..."+args[0] );
-        App app = new App();
+    public UrlParser urlParser;
+    public DocParser docParser;
+    public static void main( String[] args ) throws Exception{
         
+	System.out.println( "Parsing the web page..."+args[0]);
+        App app = new App();
         app.startApp(args);
 
     }
