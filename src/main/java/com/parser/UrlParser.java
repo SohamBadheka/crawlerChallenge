@@ -7,7 +7,7 @@ import org.jsoup.nodes.Document;
 
 public class UrlParser {
 
-	//Validate URL passed throught the constructor
+    //Validate URL passed throught the constructor
     public UrlParser(String url){
         validateUrl(url);
     }
