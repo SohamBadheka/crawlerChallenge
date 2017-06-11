@@ -11,8 +11,7 @@ public class UrlParser {
     public UrlParser(String url){
         validateUrl(url);
     }
-    
-    
+      
     public Document validateUrl(String url){
     	Document doc=null;
         try {
@@ -22,9 +21,7 @@ public class UrlParser {
             e.printStackTrace();
         }
         return doc;
-    }
-    
-   
+    }   
 }
 
 
